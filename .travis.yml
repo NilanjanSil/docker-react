@@ -11,4 +11,4 @@ before_install:
 
 
 script:
-  - docker run -e CI=true nilanjan/react-app npm run test -- --coverage
+  - docker run -e CI=true nilanjan/docker-react npm run test -- --coverage
